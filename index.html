@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body{
+            background-color: rgb(0, 162, 255);
+        }
+        .container {
+            display: grid;
+            background-color: #ccc;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid;
+            border-radius: 12px;
+            width: 30%;
+            margin:  60px auto;
+            padding: 20px;
+        }
+
+        .loop {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .class {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .red {
+            display: flex;
+            background-color: azure;
+        }
+    </style>
+
+    <title>FORM</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="loop">
+            <img src="/media/img/my logo.png" alt="image" style="height: 85px;width:95px ;">
+            <h1>SIGN IN</h1>
+        </div>
+
+        <form>
+            <label for="Type Your Username"></label><br>
+            <input type="text" id="Type Your Username" name="Type Your Username" placeholder="Type Your Username"
+                style="padding: 5px; width: 250px;"><br>
+            <label for="Type Your Password"></label><br>
+            <input type="password" id="Type Your Password" name="Type Your Password" placeholder="Type Your Password"
+                style="padding: 5px; width: 250px;"><br>
+            <label for="Sign In"></label><br>
+            <input type="text" id="Sign In" name="Sign In" placeholder="Sign In"
+                style="background-color: blue; padding: 7px;text-align: center; width: 250px;"><br>
+
+            <div class="class">
+                <p><input type="checkbox" id="Remember Me"> Remember Me</p>
+                <p style="color: blue;">Forget Password?</p>
+            </div>
+            <div class="red">
+                <p>Not A Member?</p>
+                <p style="color: blue;">Create An Account </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
